@@ -1,5 +1,4 @@
-Select FirstName, 
-	LastName, 
+Select FirstName ||" "|| LastName as "Full Name", 
 	InvoiceId, 
 	InvoiceDate, 
 	BillingCountry

@@ -1,4 +1,6 @@
-Select A.Title, M.Name, G.Name
+Select A.Title as "Album Name", 
+	M.Name as "Media Type", 
+	G.Name as "Genre Name"
 From Track T
 	Join Album A
 	Join MediaType M

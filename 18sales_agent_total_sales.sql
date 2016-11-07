@@ -1,4 +1,6 @@
-Select E.EmployeeId, E.LastName, E.FirstName, Sum(I.Total)
+Select E.EmployeeId, 
+	E.LastName ||" "|| E.FirstName as "Sales Agent", 
+	Sum(I.Total)
 From Employee E
 	Join Customer C
 	Join Invoice I
